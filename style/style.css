@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.foto-cv{
+    margin-left: 6%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.5);
+    transition: .5s;
+    user-select: none;
+    /* opacity: 0; */
+}
+
+.foto-cv:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 20px rgba(0,0,0,.5);
+}
+
+.header-text{
+    color: #E2A69C;
+    width: 100%;
+    margin-left: auto;
+}
+
+.header-text h1{
+    font-size: 80px;
+    font-weight: normal;
+}
+
+.header-text p{
+    font-size: 20px;
+    color: lightgray;
+    font-style: italic;
+}
+
+.main-cont{
+    margin: 20px;
+}
+
+.main-button{
+    margin: 20px;
+}
+
+.card{
+    border: none !important;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.perfil-profesional{
+    text-align: justify;
+}
+
+.progress-bar{
+    background-color: #468b97 !important;
+}
+
+.formacion{
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencia{
+    justify-content: center;
+    align-items: center;
+}
+
+.idiomas{
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-formacion{
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+}
+
+.logo-exp{
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+}
+
+.text-area{
+    resize: none !important;
+}
+
+.form-check{
+    text-align: start;
+    color: rgb(52, 52, 52);
+    font-style: italic;
+}
+
+.btn{
+    background-color: #468b97 !important;
+    color: white !important;
+    margin: 2px;
+    font-weight: 560 !important;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.5);
+    transition: .5s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 20px rgba(0,0,0,.5);
+}
